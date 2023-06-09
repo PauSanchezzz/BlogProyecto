@@ -1,0 +1,86 @@
+body{
+  margin:0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../assets/fondo.jpg");
+  background-size: cover;
+  font-family: monospace;
+}
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+.header-icons-container {
+  width: 100em;
+  height: 3.5em;
+  display: grid;
+  background-color: #b96299;
+
+}
+.header-icons-container .icons {
+    width: 23em;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+.icons a img {
+  padding-left: 3em;
+  width: 2.6em;
+  height:auto; 
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo-container .item-left img {
+  height: 5.8em;
+}
+.profile-link .item-right {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2em;
+  color: black;
+  width: 8em;
+  height: 3em;
+}
+.profile-link {
+  margin: 1.4em;
+}
+.main-index {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+.title-index{
+  display: grid;
+  backdrop-filter: blur(1em);
+  border-radius: 3em;
+  color: white;
+  grid-column: 2;
+  text-align: center;
+  letter-spacing:0.5em;
+  height:7em;
+  margin-top:2.3em ;
+  font-size: 1.3em;
+  line-height: 2.5em;
+  padding: 2em;
+}
+.login-index{
+    display: grid;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5em;
+    margin-left: 28em;
+    background-color: white;
+    border-radius: 2em;
+    width: 8em;
+    height: 3em;
+}
