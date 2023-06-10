@@ -33,7 +33,6 @@ text-align: center;
 }
 .objective {
   display: inline-block;
-  /* padding: 5px 15px; */
   padding: 0.8em 2em;
   text-align: center;
   max-width: 25%;
@@ -41,11 +40,9 @@ text-align: center;
   margin: 0.6em 0.6em;
   border-radius: 1em;
 }
-
 .objective p {
   color: white;
 }
-
 .objective img {
   width:20em;
   border-radius: 1em;
