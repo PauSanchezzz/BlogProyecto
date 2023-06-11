@@ -2,8 +2,6 @@
 .blogs-container{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr  ;
-     /*  max-width: 70%; */
-    /* padding: 1em 2em; */
 }
 .image-objective-general{
   grid-row: 1;
