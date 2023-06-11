@@ -6,23 +6,31 @@
   padding: 2em 4em ;
   display: grid;
   grid-template-rows: 1fr;
-  display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
   color: white;
-    }
+  /* max-width: 70%; */
+}
 .image-objective-general{
   grid-column: 1,3;
   justify-self: center;
+  align-self: center;
 }
 .image-objective-general img{
   width: 30em;
   border-radius: 1em;
+
 }
 .text-objective-general{
   grid-column: 2;
   text-align: justify;
   align-self: center;
+  line-height: 2em;
+  font-size: 1.03em;
+}
+.text-objective-general h1{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
 }
 .text-objective-general p{
   line-height: 1.5em;
@@ -33,15 +41,18 @@ text-align: center;
 }
 .objective {
   display: inline-block;
+  
   padding: 0.8em 2em;
   text-align: center;
   max-width: 25%;
   backdrop-filter: blur(100px);
   margin: 0.6em 0.6em;
   border-radius: 1em;
+
 }
 .objective p {
   color: white;
+  
 }
 .objective img {
   width:20em;
@@ -51,7 +62,8 @@ text-align: center;
   padding: 1.5em 2em;
 }
 .title-two{
-display: flex;
+  display: flex;
   align-items: center;
-    justify-content: center;
+  justify-content: center;
+    
 }

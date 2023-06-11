@@ -3,15 +3,12 @@
 }
 .container-profile{
   background-color: #cfa0bd;
-  padding: 2em 4em;
-  display: grid;
-  grid-template-rows: 1fr;
+  padding: 1em 2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   color: rgb(155, 14, 85);
-  height: 18em;
-  width: 60em;
+  max-width: 70%;
   text-align: center;
   margin: 0 auto;
   border-radius: 1em;
@@ -19,28 +16,30 @@
 .description{
   align-self: center;
   padding: 2em;
+  font-size: 1.05em;
+  /* text-align: justify; */
 }
 .image{
   grid-column: 1;
   justify-self: center;
+    align-self: center;
 }
 .image img {
-  width: 12em;
+  width: 15em;
   border-radius: 1em;
 }
 .container-projects {
   display: grid;
+  padding: 2em 2em 0;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 2em 2em 0;
-  height: 28em;
-  width: 88em;
   margin: 0 auto 2em;
 }
 .project{
   background: linear-gradient(#1562AC, #2A4785, #36244F);
   color: white;
+  max-width: 90%;
   padding: 0.5em 1em;
   text-align: center;
   border-radius: 1em;
