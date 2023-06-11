@@ -1,0 +1,42 @@
+@media (max-width: 950px){
+.blogs-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr  ;
+     /*  max-width: 70%; */
+    /* padding: 1em 2em; */
+}
+.image-objective-general{
+  grid-row: 1;
+}
+.image-objective-general img{
+  width: 19em;
+}
+.text-objective-general{
+  grid-column: 1;
+  grid-row: 3;
+}
+.objective{
+  max-width: 70%;
+}
+.objective img{
+  width: 19em;
+}
+.container-profile {
+  max-width: 70%;
+  text-align: top;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.container-projects{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+.description{
+  padding: 0em;
+}
+.project{
+  max-width: 70%;
+}
+
+}
